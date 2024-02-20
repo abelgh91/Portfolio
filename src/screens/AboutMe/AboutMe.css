@@ -7,9 +7,62 @@
 }
 
 .aboutme-container img {
-    max-width: 50%;
+    max-width: 30%;
     max-height: 50%;
     height: auto;
     border-radius: 50%;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+.aboutme-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.aboutme-container p {
+    text-align: justify;
+    font-weight: normal;
+}
+
+.aboutme-container strong {
+    font-weight: bold;
+}
+
+.cv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cv-container span{
+    margin: 0 10px 0 0;
+}
+
+.cv-container p {
+    text-align: center;
+    margin: 15px 15px 0 0;
+}
+
+.cv-container a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    border: 2px solid var(--accent-color);
+    border-radius: 5px;
+}
+
+.cv-container a:hover {
+    background-color: var(--accent-color);
+    color: var(--main-bg-color);
+}
+
+.cv-container img {
+    margin: 10px 10px 0 0; 
+    vertical-align: middle; 
+    width: 150px;
+    height: 60px;
+}
+
