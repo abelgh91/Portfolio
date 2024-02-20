@@ -1,9 +1,20 @@
 .contact-container {
-    display: flex;
-    background-color: var(--main-brand);
-    padding: var(--padding);
-    justify-content: space-evenly;
-    color: var(--light-shades);
-    letter-spacing: 1px;
-    font-size: 1.2rem;
+  display: flex;
+  background-color: var(--main-brand);
+  padding: var(--padding);
+  justify-content: space-evenly;
+  color: var(--light-shades);
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  align-items: center; 
+}
+
+.contact-container p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container img {
+  margin-right: 10px;
 }

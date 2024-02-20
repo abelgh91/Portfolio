@@ -10,7 +10,7 @@ import "./Modal.css"
  * @returns 
  */
 
-const Modal = ({onClick, title, description, image, url}) => {
+const Modal = ({onClick, title, description, image, url, repoUrl}) => {
     return ( 
         <div className="modal-container" >
             <div className="modal-content" >
@@ -21,6 +21,11 @@ const Modal = ({onClick, title, description, image, url}) => {
                 <a href={url} target="_blank" rel="noreferrer" >
                     <button className="btn" >Visita la App</button>
                 </a>
+                {repoUrl && (
+                <a href={repoUrl} target="_blank" rel="noreferrer" >
+                    <button className="btn" >Visita el repositorio</button>
+                </a>
+                )}
             </div>
         </div>
      );

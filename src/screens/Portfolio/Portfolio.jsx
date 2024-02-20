@@ -26,7 +26,7 @@ const Portfolio = () => {
 
     return ( 
         <div id="portfolio" className='portfolio-container' >
-            <h1>Portfolio</h1>
+            <h1>Proyectos</h1>
             <div id="portfolioImgRRSS" className='portfolio-containerRRSS' >
                 <div id="imagenGitHub" className='portfolio-rrss' >
                     <p>GitHub</p>
@@ -39,7 +39,7 @@ const Portfolio = () => {
             </div>
                 <div className='portfolio-grid'>
                     {currentProject && (
-                        <Modal onClick={clearCurrent} title={currentProject.title} description={currentProject.description} image={currentProject.image} url={currentProject.url} />
+                        <Modal onClick={clearCurrent} title={currentProject.title} description={currentProject.description} image={currentProject.image} url={currentProject.url} repoUrl={currentProject.repoUrl} />
                     )}
                     {projectList}
                 </div>
