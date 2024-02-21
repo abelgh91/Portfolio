@@ -4,28 +4,32 @@
     gap: var(--gap);
     justify-content: center;
     align-items: center;
+    background-color: var(--dark-shades);
 }
 
 .aboutme-container img {
     max-width: 30%;
     max-height: 50%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 3%;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .aboutme-container h1 {
     text-align: center;
     margin-bottom: 10px;
+    color: aliceblue;
 }
 
 .aboutme-container p {
     text-align: justify;
     font-weight: normal;
+    color: aliceblue;
 }
 
 .aboutme-container strong {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .cv-container {
@@ -66,3 +70,14 @@
     height: 60px;
 }
 
+.paragraph {
+    font-size: 24px;
+    padding: 80px;
+}
+
+@media screen and (max-width: 1250px) {
+    .paragraph {
+        font-size: 18px;
+        padding: 40px;
+    }
+}

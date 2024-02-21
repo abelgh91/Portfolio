@@ -1,6 +1,6 @@
 .contact-container {
   display: flex;
-  background-color: var(--main-brand);
+  background: linear-gradient(to top, var(--main-brand), #232824);
   padding: var(--padding);
   justify-content: space-evenly;
   color: var(--light-shades);

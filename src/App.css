@@ -18,7 +18,7 @@ p {
     --gap: 1rem;
     --padding: 1.2rem;
     --border-radius: 5px;
-    --light-shades: #f3f3f4;
+    --light-shades: #f3fbffde;
     --main-brand: #1693ac;
     --dark-accent: #333;
     --dark-shades: #232824;
@@ -31,12 +31,29 @@ html {
 .btn {
     padding: 0.45rem 1.2rem;
     cursor: pointer;
+    font-size: large;
     background-color: var(--dark-shades);
     border-radius: var(--border-radius);
     color: var(--main-brand);
     border: none;
     transition: all 0.2s ease-in-out;
     width: fit-content;
+}
+
+.btn2 {
+    padding: 0.45rem 1.2rem;
+    font-size: large;
+    cursor: pointer;
+    background-color: var(--main-brand);
+    border-radius: var(--border-radius);
+    color: var(--light-shades);
+    border: none;
+    transition: all 0.2s ease-in-out;
+    width: fit-content;
+}
+.btn2:hover {
+    background-color: var(--light-shades);
+    color: var(--main-brand);
 }
 
 

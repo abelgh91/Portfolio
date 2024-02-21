@@ -8,8 +8,12 @@ import Modal from '../components/Modal/Modal';
 const Portfolio = () => {
     const [currentIndex, setCurrentIndex] = useState(null);
 
-    const handleClick = (index) => setCurrentIndex(index);
-    const clearCurrent = () => setCurrentIndex(null)
+    const handleClick = (index) => {
+        setCurrentIndex(index);
+    }
+    const clearCurrent = () => {
+        setCurrentIndex(null);
+    }
 
     const imagenGithub = githubImg;
     const imagenLinkedin = linkedinImg;
@@ -25,7 +29,7 @@ const Portfolio = () => {
     let currentProject = currentIndex >= 0 && projects[currentIndex];
 
     return ( 
-        <div id="portfolio" className='portfolio-container' >
+        <div id="portfolio" className='portfolio-container'>
             <h1>Proyectos</h1>
             <div id="portfolioImgRRSS" className='portfolio-containerRRSS' >
                 <div id="imagenGitHub" className='portfolio-rrss' >

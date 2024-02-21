@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     gap: var(--gap);
+    background-color: var(--dark-shades);
+    color: aliceblue;
 }
 
 .portfolio-containerRRSS {
