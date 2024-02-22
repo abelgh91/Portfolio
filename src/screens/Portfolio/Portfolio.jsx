@@ -21,7 +21,7 @@ const Portfolio = () => {
     const projectList = projects.map((project, index) => {
         return (
             <div onClick={() => handleClick(index)} key={index} className='portfolio-projects-frame' >
-                <img src={project.image} alt={project.title} />
+                <img src={project.image1} alt={project.title} />
             </div>
         );
     });
