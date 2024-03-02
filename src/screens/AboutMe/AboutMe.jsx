@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
 import miImagen from "./Linkedin.jgp.jpg";
-import cvPdf from "./cvAbelJunior.pdf";
+import cvPdf from "./AbelJuniorCV.pdf";
 // import pdf from "./pdf-file-svgrepo-com.svg";
 
 const AboutMe = () => {
